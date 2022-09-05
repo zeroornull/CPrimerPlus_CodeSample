@@ -50,3 +50,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Fortran module files
+*.mod
+*.smod
+
+
+# .idea
+.idea/*
+cmake-build-debug/*
+
+*.iml
+/cmake-build-debug-mingw-mingw/
+/cmake-build-debug-visual-studio/
